@@ -1,0 +1,34 @@
+{
+  "name": "suno",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "suno": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-a-n-a/suno.git"
+  },
+  "keywords": [
+    "register",
+    "node",
+    "sucrase"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h-a-n-a/suno/issues"
+  },
+  "homepage": "https://github.com/h-a-n-a/suno#readme",
+  "dependencies": {
+    "sucrase": "*"
+  }
+}
